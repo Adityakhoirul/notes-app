@@ -1,3 +1,5 @@
+
+
 const addBox = document.querySelector(".add-box"),
   popupBox = document.querySelector(".popup-box"),
   popupTitle = popupBox.querySelector("header p"),
@@ -92,6 +94,7 @@ function updateNote(noteId, title, filterDesc) {
   popupTitle.innerText = "Update a Note";
   addBtn.innerText = "Update Note";
 }
+
 
 addBtn.addEventListener("click", (e) => {
   e.preventDefault();
